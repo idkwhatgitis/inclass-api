@@ -69,8 +69,6 @@ class MainActivity : AppCompatActivity() {
 
                 override fun onFailure(call: Call<movieItem>, t: Throwable) {
                     Log.e("???", "onFailure: ${t.message}")
-
-
             }
             })
         }}
